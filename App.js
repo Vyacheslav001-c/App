@@ -12,7 +12,7 @@ const App = () => {
   return (
     <View style={{ flex: 1 }}>
       <NavigationContainer>
-        <Stack.Navigator  initialRouteName="Input1">
+        <Stack.Navigator  initialRouteName="StartSc">
           <Stack.Screen
             name="GiftScreen"
             component={GiftScreen}

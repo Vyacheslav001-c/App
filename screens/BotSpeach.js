@@ -18,7 +18,7 @@ const BotSpeach = () => {
                 <Texts />
             </View>
             <TouchableOpacity
-                onPress={() => { navigation.navigate("StartSc") }}
+                onPress={() => { navigation.navigate("MainStage") }}
                 style={{ alignSelf: 'center', position:'absolute',bottom:'0%'}}>
                 <ButtCont />
             </TouchableOpacity>
