@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 const MainStage = () => {
   const navigation = useNavigation(); 
   return (
-    <View style={{flex:1}}>
+    <View style={{flex:1,backgroundColor:'white'}}>
      <Starts
      style={styles.start}
      />
